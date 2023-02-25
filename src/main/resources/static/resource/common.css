@@ -1,0 +1,39 @@
+/* 폰트 */
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src:
+    url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html>body, html>body .toastui-editor-contents, html>body .ProseMirror,
+  html>body .toastui-editor-md-code, html>body .toastui-editor-md-code-block
+  {
+  font-family: 'GmarketSansMedium', sans-serif;
+  text-underline-position: under;
+}
+
+/* 라이브러리 */
+.table-box-type-1>table {
+  width: 100%;
+}
+
+.table-box-type-1>table th, .table-box-type-1>table td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.btn-text-link {
+  color: skyblue;
+}
+
+.btn-text-link:hover {
+  text-decoration: underline;
+}
+
+/* 커스텀 */
+body {
+  min-width: 800px;
+}
